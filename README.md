@@ -44,14 +44,23 @@ java -cp out com.arpdetector.ARPDetectorApp
 
 # Структура проекта
 src/com/arpdetector/
+
 ├── ARPDetectorApp.java        # Точка входа
+
 ├── MainWindow.java            # Главное окно (GUI)
+
 ├── ARPSpoofDetector.java      # Ядро — обнаружение атак
+
 ├── DeviceTableModel.java      # Модель таблицы устройств
+
 ├── AlertListModel.java        # Модель списка оповещений
+
 ├── Device.java                # Модель устройства
+
 ├── Alert.java                 # Модель оповещения
+
 └── MacVendorLookup.java       # Определение производителя по MAC
+
 🔧 Технологии
 Технология	Назначение
 Java 17	Язык программирования
