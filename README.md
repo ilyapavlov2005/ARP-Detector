@@ -39,9 +39,10 @@ javac -d out src/com/arpdetector/*.java
 
 # Запуск
 java -cp out com.arpdetector.ARPDetectorApp
+
 Важно! Программа должна запускаться от имени администратора (Windows) или с правами root (Linux/macOS) для доступа к ARP-таблице.
 
-Структура проекта
+# Структура проекта
 src/com/arpdetector/
 ├── ARPDetectorApp.java        # Точка входа
 ├── MainWindow.java            # Главное окно (GUI)
